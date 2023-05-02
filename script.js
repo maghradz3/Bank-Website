@@ -286,3 +286,11 @@ const maincSliderFunc = function () {
   });
 };
 maincSliderFunc();
+
+///Hamburger bar
+const hamburger = document.querySelector('.hamburger');
+hamburger.addEventListener('click', function () {
+  // hamburger.textContent = "X";
+  const nav = document.querySelector('.nav');
+  nav.classList.toggle('active');
+});
